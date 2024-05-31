@@ -6,7 +6,7 @@ db = SQLite3::Database.new 'test.sqlite'
 
 db.execute "SELECT * FROM Cars" do |car|
 	puts car 
-	puts "====test222"
+	puts "====test222333"
 end
 
 db.close
